@@ -1,63 +1,63 @@
  ---------- factorial elaborated [0:12] -----------
 Unit: microseconds
-                        expr      min        lq      mean    median        uq      max neval cld
-   sapply(n, Factorial_loop)   82.690   90.8085  151.7350   95.7175  108.9330 4489.807   100 a  
- sapply(n, Factorial_reduce) 2162.780 2326.4610 2693.5293 2435.9595 2614.9320 8699.826   100   c
-   sapply(n, Factorial_func)  471.220  511.9995  599.9943  548.0580  584.3060 4331.978   100  b 
-    sapply(n, Factorial_mem)  138.195  147.6350  248.9354  155.5635  171.2335 8083.615   100 a  
+                        expr      min       lq      mean    median        uq       max neval cld
+   sapply(n, Factorial_loop)   84.579   91.375  145.6031   97.6045  103.8350  4320.273   100 a  
+ sapply(n, Factorial_reduce) 2280.208 2387.440 2664.5840 2465.4105 2577.3630 11802.025   100   c
+   sapply(n, Factorial_func)  498.029  547.114  639.3873  584.3060  613.1905  3824.889   100  b 
+    sapply(n, Factorial_mem)  137.817  151.033  246.8851  157.0740  179.9175  7978.647   100 a  
 
  ---------- factorial elaborated 10 -----------
 Unit: microseconds
                         expr     min      lq      mean   median       uq      max neval  cld
-   sapply(n, Factorial_loop)  16.236  17.370  21.51810  18.5020  21.9000   87.599  1000 a   
- sapply(n, Factorial_reduce) 198.607 207.293 248.07265 213.8995 249.7695 5849.472  1000    d
-   sapply(n, Factorial_func)  66.832  70.986  82.57738  73.6290  80.0480  270.726  1000   c 
-    sapply(n, Factorial_mem)  22.655  24.921  35.85332  27.1860  30.9620 4998.407  1000  b  
+   sapply(n, Factorial_loop)  15.481  16.992  20.51751  18.1240  20.3900   83.068  1000 a   
+ sapply(n, Factorial_reduce) 193.321 199.741 229.15475 209.3695 240.8970 1710.062  1000    d
+   sapply(n, Factorial_func)  65.700  69.475  81.44655  72.4960  77.7825 1620.953  1000   c 
+    sapply(n, Factorial_mem)  22.278  24.166  31.02595  26.0530  29.0745 1584.328  1000  b  
 
  ---------- factorial elaborated 25 -----------
 Unit: microseconds
                         expr     min      lq      mean  median       uq      max neval  cld
-   sapply(n, Factorial_loop)  16.614  18.879  23.09379  20.013  24.1660  175.953  1000 a   
- sapply(n, Factorial_reduce) 274.501 288.849 335.88495 300.177 342.4655 5611.975  1000    d
-   sapply(n, Factorial_func) 146.879 156.697 187.00776 163.870 185.0150 5339.362  1000   c 
-    sapply(n, Factorial_mem)  32.472  35.682  49.40165  38.891  43.4230 5098.843  1000  b  
+   sapply(n, Factorial_loop)  16.236  17.747  22.22534  18.880  22.6560   82.690  1000 a   
+ sapply(n, Factorial_reduce) 266.195 279.787 318.38263 308.484 336.4250 1875.064  1000    d
+   sapply(n, Factorial_func) 146.502 154.053 181.07105 161.983 193.6995 2319.476  1000   c 
+    sapply(n, Factorial_mem)  31.340  33.983  44.32397  36.625  40.7790 1732.716  1000  b  
 
  ---------- factorial elaborated 40 -----------
 Unit: microseconds
-                        expr     min       lq      mean  median      uq      max neval  cld
-   sapply(n, Factorial_loop)  16.614  18.8800  23.03447  20.390  24.543   79.292  1000 a   
- sapply(n, Factorial_reduce) 275.256 294.8905 330.70004 304.330 343.221  853.331  1000    d
-   sapply(n, Factorial_func) 221.262 242.5955 282.13001 250.336 277.900 6249.331  1000   c 
-    sapply(n, Factorial_mem)  40.024  44.5560  62.52559  47.576  52.484 5163.410  1000  b  
+                        expr     min      lq      mean   median      uq      max neval  cld
+   sapply(n, Factorial_loop)  16.237  18.125  24.15968  19.2580  23.411 1708.173  1000 a   
+ sapply(n, Factorial_reduce) 276.389 290.360 324.49149 317.9235 338.690 2125.022  1000    d
+   sapply(n, Factorial_func) 229.192 242.407 278.06572 256.0000 289.605 2119.736  1000   c 
+    sapply(n, Factorial_mem)  40.401  43.423  53.67437  46.4430  51.351 1538.263  1000  b  
 
  ---------- factorial elaborated 55 -----------
 Unit: microseconds
-                        expr     min      lq      mean   median       uq      max neval  cld
-   sapply(n, Factorial_loop)  17.369  19.635  24.37639  21.5220  25.2990   80.047  1000 a   
- sapply(n, Factorial_reduce) 290.359 309.239 352.49624 322.0770 360.9675 5430.737  1000   c 
-   sapply(n, Factorial_func) 311.126 340.200 393.55769 361.5335 401.9345 6609.919  1000    d
-    sapply(n, Factorial_mem)  50.596  55.127  74.65463  58.5260  64.1890 5277.061  1000  b  
+                        expr     min       lq      mean  median       uq      max neval  cld
+   sapply(n, Factorial_loop)  16.614  19.2570  23.42905  20.390  24.1660   78.915  1000 a   
+ sapply(n, Factorial_reduce) 282.430 300.7435 342.96348 326.041 361.5340 2040.444  1000   c 
+   sapply(n, Factorial_func) 321.699 340.3895 394.40198 369.652 403.4445 2607.569  1000    d
+    sapply(n, Factorial_mem)  49.841  53.6170  64.54072  57.016  62.3020 1552.232  1000  b  
 
  ---------- factorial elaborated 70 -----------
 Unit: microseconds
-                        expr     min       lq      mean   median      uq      max neval  cld
-   sapply(n, Factorial_loop)  17.746  20.3900  30.23418  21.9000  25.676 5202.300  1000 a   
- sapply(n, Factorial_reduce) 285.829 319.0550 366.50070 332.8375 376.637 5167.941  1000   c 
-   sapply(n, Factorial_func) 398.725 438.9375 517.81404 461.0260 505.014 8040.948  1000    d
-    sapply(n, Factorial_mem)  58.148  64.5670  75.74619  69.0975  75.139  234.100  1000  b  
+                        expr     min       lq      mean   median       uq      max neval  cld
+   sapply(n, Factorial_loop)  17.369  20.0120  24.96959  21.5230  25.2990   86.843  1000 a   
+ sapply(n, Factorial_reduce) 293.381 320.5660 379.64275 352.6610 397.5925 1992.114  1000   c 
+   sapply(n, Factorial_func) 418.737 464.4245 525.85385 490.6655 530.8780 2276.432  1000    d
+    sapply(n, Factorial_mem)  58.525  63.8120  79.65112  68.7200  81.5580 1605.472  1000  b  
 
  ---------- factorial elaborated 85 -----------
 Unit: microseconds
-                        expr     min      lq      mean   median       uq      max neval  cld
-   sapply(n, Factorial_loop)  18.124  20.390  24.84802  21.9000  26.0530   86.466  1000 a   
- sapply(n, Factorial_reduce) 308.106 324.342 379.21685 347.3745 395.1385 6199.868  1000   c 
-   sapply(n, Factorial_func) 518.418 549.002 633.73609 581.0965 620.9315 6034.865  1000    d
-    sapply(n, Factorial_mem)  68.342  72.873  84.14207  77.4040  83.2565  245.806  1000  b  
+                        expr     min       lq      mean  median       uq       max neval cld
+   sapply(n, Factorial_loop)  16.992  20.0130  27.56696  21.900  25.6760  1513.342  1000 a  
+ sapply(n, Factorial_reduce) 291.114 326.2300 383.64471 357.569 397.2150  1949.447  1000  b 
+   sapply(n, Factorial_func) 526.347 570.1465 742.39309 602.997 651.1375 97537.649  1000   c
+    sapply(n, Factorial_mem)  66.077  72.8730  91.25720  77.782  94.3955  1571.867  1000 a  
 
  ---------- factorial elaborated 100 -----------
 Unit: microseconds
-                        expr     min       lq      mean   median       uq        max neval cld
-   sapply(n, Factorial_loop)  18.502  21.1450  26.27222  23.0330  26.9975     86.089  1000  a 
- sapply(n, Factorial_reduce) 301.687 336.8025 576.61652 362.8555 410.8085 179800.291  1000   b
-   sapply(n, Factorial_func) 602.619 677.1905 771.08505 718.9130 766.6770   7135.511  1000   b
-    sapply(n, Factorial_mem)  74.761  82.6910 102.67144  87.9770  97.0390   5442.064  1000  a 
+                        expr     min      lq      mean   median       uq      max neval  cld
+   sapply(n, Factorial_loop)  17.369  20.390  25.91127  22.2780  26.0530   99.304  1000 a   
+ sapply(n, Factorial_reduce) 296.401 331.327 393.17144 367.0090 412.8845 2128.043  1000   c 
+   sapply(n, Factorial_func) 618.855 687.763 775.51480 724.7655 781.2140 3577.195  1000    d
+    sapply(n, Factorial_mem)  74.384  81.936 102.66349  87.2210 105.1570 1660.976  1000  b  

@@ -1,3 +1,6 @@
+# Coursera - Advanced R programming course
+# Part 1: Factorial Function
+
 library(purrr)
 library(microbenchmark)
 library(dplyr)
@@ -89,24 +92,25 @@ if (file.exists(filename))
 sink(filename)
 
 ## Start testing range
+#
 # Number of times of sampling for microbenchmark
 numSampling = 100
 # set of values for test factorial functions
 factNum <- 0:12
-#print(paste0("---------- factorial elaborated 0:12 -----------" ))
 cat(paste0(" ---------- factorial elaborated [0:12] -----------", "\n" ))
 output <- evalFuncs(factNum, numSampling)
 print(output)
+#
 ## End testing range
 
 ## Start testing single value
 #
 for (factNum in seq(from = 10, to = 100, by = 15)) {
-#        print(paste0("---------- factorial elaborated ",factNum," -----------" ))
         cat(paste0("\n", " ---------- factorial elaborated ",factNum," -----------","\n" ))
         output <- evalFuncs(factNum) # use default times = 1000
         print(output)
 }
+#
 ## End testing single value
 sink()
 
