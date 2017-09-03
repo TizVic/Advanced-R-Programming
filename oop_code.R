@@ -1,13 +1,14 @@
 # Coursera - Advanced R programming course
 # Part 2: Longitudinal Data Class and Methods
-# S4 Classes for Longitudinal data assignment
+
+# For this assignement I used S4 classes.
+# Methods of the classes used for Longitudinal data assignment 
+# and output class types are summarized above
 
 #################################################################
-##      Structure of S4 classes
+##                  Structure of S4 classes                    ##
 #################################################################
-
-#################################################################
-# Class Name    # Method Name   # Input         # Output        #
+# Class Name            # Method Name   # Output                #
 #################################################################
 # LongitudinalData      # print         # R Console             #
 # LongitudinalData      # subject       # Subject class         #
