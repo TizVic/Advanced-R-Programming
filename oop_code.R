@@ -5,21 +5,21 @@
 # Methods of the classes used for Longitudinal data assignment 
 # and output class types are summarized above
 
-#################################################################
-##                  Structure of S4 classes                    ##
-#################################################################
-# Class Name            # Method Name   # Output                #
-#################################################################
-# LongitudinalData      # print         # R Console             #
-# LongitudinalData      # subject       # Subject class         #
-# Subject               # print         # R Console             #
-# Subject               # summary       # Summary class         #
-# Subject               # visit         # Subject class         #
-# Subject               # room          # Room class            #
-# Summary               # print         # R Console             #
-# Room                  # print         # R Console             #
-# Room                  # summary       # Summary class         #
-#################################################################
+#########################################################################
+##                          Structure of S4 classes                    ##
+#########################################################################
+# Class Name            # Method Name           # Output                #
+#########################################################################
+# LongitudinalData      # print                 # R Console             #
+# LongitudinalData      # subject               # Subject class         #
+# Subject               # print                 # R Console             #
+# Subject               # summary               # Summary class         #
+# Subject               # visit (Gen + Meth)    # Subject class         #
+# Subject               # room (Gen + Meth)     # Room class            #
+# Summary               # print                 # R Console             #
+# Room                  # print                 # R Console             #
+# Room                  # summary               # Summary class         #
+#########################################################################
 
 
 # Loading libraries used in methods
